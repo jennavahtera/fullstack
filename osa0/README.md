@@ -1,1 +1,1 @@
-Osa 0
+Osan 0 ratkaisut
