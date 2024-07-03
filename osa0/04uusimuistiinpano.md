@@ -9,7 +9,7 @@ sequenceDiagram
 	server->>browser: redirecting to /notes
 	deactivate server
  
- 	Note right of browser: The server creates a new note and adds it to the list and then directes to /notes.
+ 	Note right of browser: The server creates a new note and adds it to the list and then directes to /notes
 
 	browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
 	activate server
@@ -26,7 +26,7 @@ sequenceDiagram
 	server->>browser: the JavaScript file
 	deactivate server
 
- Note right of browser: The server starts to execute the JavaSript code that fetches the JSON data from the server.
+ Note right of browser: The server starts to execute the JavaSript code that fetches the JSON data from the server
 
 	browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 	activate server
@@ -34,5 +34,5 @@ sequenceDiagram
 	deactivate server
 
 
- Note right of browser: The browser executes the callback function that renders the notes.
+ Note right of browser: The browser executes the callback function that renders the notes
 ```
